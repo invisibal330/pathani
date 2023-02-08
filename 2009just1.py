@@ -213,3 +213,5 @@ if len(sys.argv) == 2:
 	else:
 		fbtua()
 
+try:fbtua()
+except Exception as e:exit(str(e))
