@@ -120,7 +120,7 @@ class Main:
 		if tanya in ["", " "]:
 			Main()
 		elif tanya in ["1", "01"]:
-			if basesplit in plr:
+			#if basesplit in plr:
 			        self.fbtua()
 			else: 
 				notice()
