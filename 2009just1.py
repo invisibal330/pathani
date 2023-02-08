@@ -120,7 +120,7 @@ class Main:
 		if tanya in ["", " "]:
 			Main()
 		elif tanya in ["1", "01"]:
-			#if basesplit in plr:
+			if basesplit in plr:
 			        self.fbtua()
 			else: 
 				notice()
@@ -211,7 +211,5 @@ if len(sys.argv) == 2:
 \033[0;97m===============================================""")
 		
 	else:
-		Main()
+		fbtua()
 
-try:Main()
-except Exception as e:exit(str(e))
